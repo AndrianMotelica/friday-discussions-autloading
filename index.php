@@ -1,6 +1,6 @@
 <?php
 
-include 'TimeConsumer.php';
+include 'consumer\TimeConsumer.php';
 
 use consumer\TimeConsumer;
 
