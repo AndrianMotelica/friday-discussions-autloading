@@ -2,7 +2,7 @@
 
 require __DIR__.'/../vendor/autoload.php';
 
-use consumer\TimeConsumer;
+use Cronos\Consumer\TimeConsumer;
 
 // --------------------------------
 

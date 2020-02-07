@@ -1,5 +1,5 @@
 <?php 
-namespace service;
+namespace Cronos;
 
 use DateTime;
 

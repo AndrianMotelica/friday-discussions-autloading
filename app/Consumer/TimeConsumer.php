@@ -1,7 +1,7 @@
 <?php
-namespace consumer;
+namespace Cronos\Consumer;
 
-use service\TimeDumper;
+use Cronos\TimeDumper;
 
 class TimeConsumer
 {
