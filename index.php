@@ -1,6 +1,6 @@
 <?php
 
-include 'consumer\TimeConsumer.php';
+include __DIR__.'/consumer/TimeConsumer.php';
 
 use consumer\TimeConsumer;
 
