@@ -1,13 +1,7 @@
 <?php
 
-class TimeDumper
-{
+include 'timedumper.php';
 
-    public function __construct()
-    {
-        print (new DateTime())->format('Y-m-d');
-    }
-}
-
+use service\TimeDumper;
 
 new TimeDumper();
