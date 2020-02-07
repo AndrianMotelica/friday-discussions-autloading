@@ -6,8 +6,8 @@ use DateTime;
 class TimeDumper 
 {
 
-    public function __construct()
+    public function __construct($format)
     {
-        print (new DateTime())->format('Y-m-d');
+        print (new DateTime())->format($format);
     }
 }

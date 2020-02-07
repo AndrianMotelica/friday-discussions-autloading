@@ -1,7 +1,10 @@
 <?php
 
-include 'timedumper.php';
+include 'TimeConsumer.php';
 
-use service\TimeDumper;
+use consumer\TimeConsumer;
 
-new TimeDumper();
+// --------------------------------
+
+$timeConsumer = new TimeConsumer();
+$timeConsumer->whatsCurrentTime();
