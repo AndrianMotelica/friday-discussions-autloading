@@ -1,8 +1,6 @@
 <?php
 namespace consumer;
 
-include 'TimeDumper.php';
-
 use service\TimeDumper;
 
 class TimeConsumer

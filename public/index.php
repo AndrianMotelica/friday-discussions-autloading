@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__.'/consumer/TimeConsumer.php';
+require __DIR__.'/../vendor/autoload.php';
 
 use consumer\TimeConsumer;
 
